@@ -1,0 +1,16 @@
+Matias Alonso
+
+Hola Mundo !
+
+$ git init : La carpeta donde nos encontramos posicionados en la terminal, se convierte en nuestro nuevo repositorio local. Donde guardaremos todos los archivos de codigo.
+
+"Initialized empty Git repository in C:/Users/Matias/OneDrive/Escritorio/PrepCourse Henry/.git/"
+
+$ ls -a : Nos permite ver los archivos ocultos. Donde vemos la carpeta ".git"
+
+$ git status : Si la usamos en una carpeta que no sea repositorio la terminal nos tirara un error descriptivo de que no estamos en un repositorio.
+
+IMPORTANTE:  Nunca hacer git init dentro de la carpeta "Escritorio" o en archivos grandes, por ejemplo discos. Ya que estariamos haciendo un seguimiento de todos los archivos.
+
+Commit: Captura instantanea de los cambios preparados en ese momento del proyecto. Las instantaneas confirmadas pueden considerarse como versiones "Seguras" de un proyecto. Seria como guardar
+una foto del estado de los archivos y carpetas del repositorio local, al momento de "ser tomada".
